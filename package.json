@@ -1,0 +1,19 @@
+{
+  "name": "tppBot",
+  "version": "1.0.0",
+  "description": "Bot to interact with the chat of tpp on twitch.tv",
+  "main": "test.js",
+  "scripts": {
+    "start": "node ./app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tpp"
+  ],
+  "author": "nixrod",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^3.8.24",
+    "twitch-irc": "^1.1.0"
+  }
+}
